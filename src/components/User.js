@@ -15,7 +15,7 @@ export const User = () =>{
             <button onClick = {() => setsearchparam ({ })}>REset</button>
         </div>
         <div>{
-                        // Activesearchparam ? <h2>Show Active Users</h2> : <h2>Show all users</h2>
+                        //  Activesearchparam ? <h2>Show Active Users</h2> : <h2>Show all users</h2>
 
             }
         </div>

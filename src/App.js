@@ -22,6 +22,7 @@ import ComponentC from './components/ComponentC';
 import { UserProvider } from './components/UserContextAPI';
 import Useeffect from './Fetchind Data/Useeffect';
 import Fetchiddata from './Fetchind Data/Fetchiddata';
+import Reducer from './components/Reducer';
 
 function App() {
   return (
@@ -58,8 +59,10 @@ function App() {
       <UserProvider value="Munaima">
           <ComponentC />
       </UserProvider>
+      <Reducer/>
       <Useeffect/>
       <Fetchiddata/>
+
 
       </>
  );
